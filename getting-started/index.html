@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <!-- Meta, title, CSS, favicons, etc. -->
     <meta charset="utf-8">
@@ -11,7 +11,7 @@
 
 <title>
   
-    Getting started &middot; Bootstrap
+    Primeiros passos &middot; Bootstrap
   
 </title>
 
@@ -35,8 +35,8 @@
 <![endif]-->
 
 <!-- Favicons -->
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="icon" href="../favicon.ico">
 
 <script>
 //  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -49,14 +49,14 @@
 
   </head>
   <body>
-    <a class="sr-only sr-only-focusable" href="#content">Skip to main content</a>
+    <a class="sr-only sr-only-focusable" href="#content">Ir para o conteúdo principal</a>
 
     <!-- Docs master nav -->
     <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
   <div class="container">
     <div class="navbar-header">
       <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
+        <span class="sr-only">Alternar navegação</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -66,24 +66,24 @@
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav">
         <li class="active">
-          <a href="../getting-started/">Getting started</a>
+          <a href="../getting-started/">Primeiros passos</a>
         </li>
         <li>
           <a href="../css/">CSS</a>
         </li>
         <li>
-          <a href="../components/">Components</a>
+          <a href="../components/">Componentes</a>
         </li>
         <li>
           <a href="../javascript/">JavaScript</a>
         </li>
         <li>
-          <a href="../customize/">Customize</a>
+          <a href="../customize/">Personalize</a>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://expo.getbootstrap.com" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Expo');">Expo</a></li>
-        <li><a href="http://blog.getbootstrap.com" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Blog');">Blog</a></li>
+        <li><a href="http://expo.getbootstrap.com">Expo <small>(em inglês)</small></a></li>
+        <li><a href="http://blog.getbootstrap.com">Blog <small>(em inglês)</small></a></li>
       </ul>
     </nav>
   </div>
@@ -93,9 +93,8 @@
     <!-- Docs page layout -->
     <div class="bs-docs-header" id="content">
       <div class="container">
-        <h1>Getting started</h1>
-        <p>An overview of Bootstrap, how to download and use, basic templates and examples, and more.</p>
-        <div id="carbonads-container"><div class="carbonad"><div id="azcarbon"></div><script>var z = document.createElement("script"); z.async = true; z.src = "http://engine.carbonads.com/z/32341/azcarbon_2_1_0_HORIZ"; var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(z, s);</script></div></div>
+        <h1>Primeiros passos</h1>
+        <p>Uma visão geral do Bootstrap, como fazer download e utilizar, modelos básicos, exemplos e mais.</p>
 
       </div>
     </div>
@@ -107,60 +106,60 @@
           <div class="bs-docs-section">
   <h1 id="download" class="page-header">Download</h1>
 
-  <p class="lead">Bootstrap (currently v3.3.1) has a few easy ways to quickly get started, each one appealing to a different skill level and use case. Read through to see what suits your particular needs.</p>
+  <p class="lead">Bootstrap (atualmente na versão 3.3.1) tem algumas maneiras de se familiarizar rapidamente, cada uma para para diferentes habilidades e casos de uso. Este guia ajudará a encontrar o que se adequa às suas necessidades.</p>
 
   <div class="row bs-downloads">
     <div class="col-sm-4">
       <h3 id="download-bootstrap">Bootstrap</h3>
-      <p>Compiled and minified CSS, JavaScript, and fonts. No docs or original source files are included.</p>
+      <p>CSS, JavaScript e fontes compilados e reduzidos. Documentação e arquivos fonte estão incluídos.</p>
       <p>
-        <a href="https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip" class="btn btn-lg btn-outline" role="button" onclick="ga('send', 'event', 'Getting started', 'Download', 'Download compiled');">Download Bootstrap</a>
+        <a href="https://github.com/twbs/bootstrap/releases/download/v3.3.1/bootstrap-3.3.1-dist.zip" class="btn btn-lg btn-outline" role="button">Download Bootstrap</a>
       </p>
     </div>
     <div class="col-sm-4">
-      <h3 id="download-source">Source code</h3>
-      <p>Source Less, JavaScript, and font files, along with our docs. <strong>Requires a Less compiler and <a href="#grunt">some setup.</a></strong></p>
+      <h3 id="download-source">Código fonte</h3>
+      <p>Código fonte Less, JavaScript e fontes, incluindo a documentação. <strong>Requer um compilador Less e <a href="#grunt">configuração.</a></strong></p>
       <p>
-        <a href="https://github.com/twbs/bootstrap/archive/v3.3.1.zip" class="btn btn-lg btn-outline" role="button" onclick="ga('send', 'event', 'Getting started', 'Download', 'Download source');">Download source</a>
+        <a href="https://github.com/twbs/bootstrap/archive/v3.3.1.zip" class="btn btn-lg btn-outline" role="button">Download código fonte</a>
       </p>
     </div>
     <div class="col-sm-4">
       <h3 id="download-sass">Sass</h3>
-      <p><a href="https://github.com/twbs/bootstrap-sass">Bootstrap ported from Less to Sass</a> for easy inclusion in Rails, Compass, or Sass-only projects.</p>
+      <p><a href="https://github.com/twbs/bootstrap-sass">Bootstrap portado de Less para Sass</a> para fácil inclusão em projetos em Rails, Compass, ou Sass.</p>
       <p>
-        <a href="https://github.com/twbs/bootstrap-sass/archive/v3.3.1.tar.gz" class="btn btn-lg btn-outline" role="button" onclick="ga('send', 'event', 'Getting started', 'Download', 'Download Sass');">Download Sass</a>
+        <a href="https://github.com/twbs/bootstrap-sass/archive/v3.3.1.tar.gz" class="btn btn-lg btn-outline" role="button">Download Sass</a>
       </p>
     </div>
   </div>
 
   <h3 id="download-cdn">Bootstrap CDN</h3>
-  <p>The folks over at <a href="http://www.maxcdn.com/">MaxCDN</a> graciously provide CDN support for Bootstrap's CSS and JavaScript. Just use these <a href="http://www.bootstrapcdn.com/">Bootstrap CDN</a> links.</p>
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- Latest compiled and minified CSS --&gt;</span>
+  <p>O pessoal da <a href="http://www.maxcdn.com/">MaxCDN</a> bondosamente fornece suporte para CSS e JavaScript do Bootstrap. Utilize os links na <a href="http://www.bootstrapcdn.com/">Bootstrap CDN</a>.</p>
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- CSS compilado e reduzido mais recente --&gt;</span>
 <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"</span><span class="nt">&gt;</span>
 
-<span class="c">&lt;!-- Optional theme --&gt;</span>
+<span class="c">&lt;!-- Tema opcional --&gt;</span>
 <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css"</span><span class="nt">&gt;</span>
 
-<span class="c">&lt;!-- Latest compiled and minified JavaScript --&gt;</span>
+<span class="c">&lt;!-- JavaScript compilado e reduzido mais recente --&gt;</span>
 <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span></code></pre></div>
 
-  <h3 id="download-bower">Install with Bower</h3>
-  <p>Install and manage Bootstrap's Less, CSS, JavaScript, and fonts using <a href="http://bower.io">Bower</a>.</p>
+  <h3 id="download-bower">Instale com Bower</h3>
+  <p>Instale e gerencie os arquivos Less, CSS, JavaScript e fontes usando <a href="http://bower.io">Bower</a>.</p>
   <div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="gp">$ </span>bower install bootstrap</code></pre></div>
 </div>
 
 <div class="bs-docs-section">
-  <h1 id="whats-included" class="page-header">What's included</h1>
+  <h1 id="whats-included" class="page-header">O que está incluso</h1>
 
-  <p class="lead">Bootstrap is downloadable in two forms, within which you'll find the following directories and files, logically grouping common resources and providing both compiled and minified variations.</p>
+  <p class="lead">Existem duas maneiras de fazer download do Bootstrap, em cada uma você encontrará os seguinter diretórios e arquivos, agrupando recursos comuns de forma lógica e fornecendo as variações completa e reduzida.</p>
 
   <div class="bs-callout bs-callout-warning" id="jquery-required">
-    <h4>jQuery required</h4>
-    <p>Please note that <strong>all JavaScript plugins require jQuery</strong> to be included, as shown in the <a href="#template">starter template</a>. <a href="https://github.com/twbs/bootstrap/blob/v3.3.1/bower.json">Consult our <code>bower.json</code></a> to see which versions of jQuery are supported.</p>
+    <h4>jQuery necessário</h4>
+    <p>Repare que <strong>todos os plugins JavaScript exigem a inclusão do jQuery</strong>, como mostrado no <a href="#template">modelo básico</a>. Consulte o <a href="https://github.com/twbs/bootstrap/blob/v3.3.1/bower.json">arquivo <code>bower.json</code></a> para ver quais versões do jQuery são suportadas.</p>
   </div>
 
-  <h2 id="whats-included-precompiled">Precompiled Bootstrap</h2>
-  <p>Once downloaded, unzip the compressed folder to see the structure of (the compiled) Bootstrap. You'll see something like this:</p>
+  <h2 id="whats-included-precompiled">Bootstrap pré-compilado</h2>
+  <p>Após o download, descompacte o arquivo para ver a estrutura do Bootstrap (compilado). Você verá algo parecido com:</p>
 <!-- NOTE: This info is intentionally duplicated in the README.
 Copy any changes made here over to the README too. -->
 <div class="highlight"><pre><code class="language-bash" data-lang="bash">bootstrap/
@@ -178,10 +177,10 @@ Copy any changes made here over to the README too. -->
     ├── glyphicons-halflings-regular.ttf
     └── glyphicons-halflings-regular.woff</code></pre></div>
 
-  <p>This is the most basic form of Bootstrap: precompiled files for quick drop-in usage in nearly any web project. We provide compiled CSS and JS (<code>bootstrap.*</code>), as well as compiled and minified CSS and JS (<code>bootstrap.min.*</code>). Fonts from Glyphicons are included, as is the optional Bootstrap theme.</p>
+  <p>Está é a forma mais básica do Bootstrap: arquivos pré-compilados para uso imediatro em praticamente qualquer projeto de página de internet. Fornecemos CSS e JS completos (<code>bootstrap.*</code>), bem como CSS e JS compilados e reduzidos (<code>bootstrap.min.*</code>). Fontes do Glyphicons estão incluídas, assim como o tema opcional.</p>
 
-  <h2 id="whats-included-source">Bootstrap source code</h2>
-  <p>The Bootstrap source code download includes the precompiled CSS, JavaScript, and font assets, along with source Less, JavaScript, and documentation. More specifically, it includes the following and more:</p>
+  <h2 id="whats-included-source">Código fonte Bootstrap</h2>
+  <p>O downloado do código fonte do Bootstrap incluí CSS, JavaScript e fontes pré-compilados, juntamente com os fontes Less, JavaScript, e a documentação. Mais especificamente, incluí o seguinte e mais:</p>
 <div class="highlight"><pre><code class="language-bash" data-lang="bash">bootstrap/
 ├── less/
 ├── js/
@@ -192,7 +191,7 @@ Copy any changes made here over to the README too. -->
 │   └── fonts/
 └── docs/
     └── examples/</code></pre></div>
-  <p>The <code>less/</code>, <code>js/</code>, and <code>fonts/</code> are the source code for our CSS, JS, and icon fonts (respectively). The <code>dist/</code> folder includes everything listed in the precompiled download section above. The <code>docs/</code> folder includes the source code for our documentation, and <code>examples/</code> of Bootstrap usage. Beyond that, any other included file provides support for packages, license information, and development.</p>
+  <p>Os diretórios <code>less/</code>, <code>js/</code> e <code>fonts/</code> contem o código fonte do nosso CSS, JS, e fontes de icones (respectivamente). O diretório <code>dist/</code> incluí tudo o que é listado na sessão do download pré-compilado acima. O diretório <code>docs/</code> incluí o código fonte para nosssa documentação e <code>examples/</code> alguns modelos de uso. Além disso, qualquer outro arquivo incluso fornece suporte para pacotes, informação de licença de uso e desenvolvimento.</p>
 </div>
 
 <div class="bs-docs-section">
@@ -267,7 +266,7 @@ Copy any changes made here over to the README too. -->
 </div>
 
 <div class="bs-docs-section">
-  <h1 id="examples" class="page-header">Examples</h1>
+  <h1 id="examples" class="page-header">Exemplos</h1>
 
   <p class="lead">Build on the basic template above with Bootstrap's many components. We encourage you to customize and adapt Bootstrap to suit your individual project's needs.</p>
 
@@ -726,9 +725,9 @@ Copy any changes made here over to the README too. -->
   <p class="lead">Bootstrap follows common web standards and&mdash;with minimal extra effort&mdash;can be used to create sites that are accessible to those using <abbr title="Assistive Technology" class="initialism">AT</abbr>.</p>
 
   <h3>Skip navigation</h3>
-  <p>If your navigation contains many links and comes before the main content in the DOM, add a <code>Skip to main content</code> link immediately after your opening <code>&lt;body&gt;</code> tag. <a href="http://a11yproject.com/posts/skip-nav-links/">(read why)</a></p>
+  <p>If your navigation contains many links and comes before the main content in the DOM, add a <code>Ir para o conteúdo principal</code> link immediately after your opening <code>&lt;body&gt;</code> tag. <a href="http://a11yproject.com/posts/skip-nav-links/">(read why)</a></p>
 <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;body&gt;</span>
-  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#content"</span> <span class="na">class=</span><span class="s">"sr-only sr-only-focusable"</span><span class="nt">&gt;</span>Skip to main content<span class="nt">&lt;/a&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"#content"</span> <span class="na">class=</span><span class="s">"sr-only sr-only-focusable"</span><span class="nt">&gt;</span>Ir para o conteúdo principal<span class="nt">&lt;/a&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span> <span class="na">id=</span><span class="s">"content"</span><span class="nt">&gt;</span>
     The main page content.
   <span class="nt">&lt;/div&gt;</span>
@@ -844,7 +843,7 @@ Copy any changes made here over to the README too. -->
   <a href="#template">Basic template</a>
 </li>
 <li>
-  <a href="#examples">Examples</a>
+  <a href="#examples">Exemplos</a>
   <ul class="nav">
     <li><a href="#examples-framework">Using the framework</a></li>
     <li><a href="#examples-navbars">Navbars in action</a></li>
@@ -932,27 +931,28 @@ Copy any changes made here over to the README too. -->
 </div>
 
 
-    <p>Designed and built with all the love in the world by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://twitter.com/fat" target="_blank">@fat</a>.</p>
-    <p>Maintained by the <a href="https://github.com/orgs/twbs/people">core team</a> with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</p>
-    <p>Code licensed under <a href="https://github.com/twbs/bootstrap/blob/master/LICENSE" target="_blank">MIT</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
+    <p>Projetado e construido com todo o amor do mundo por <a href="https://twitter.com/mdo" target="_blank">@mdo</a> e <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
+    <p>Mantido pelo <a href="https://github.com/twbs?tab=members">membros principais</a> com ajuda dos <a href="https://github.com/twbs/bootstrap/graphs/contributors">nossos contribuidores</a>.</p>
+    <p>Documentação traduzida por <a href="https://github.com/pedrosancao">Pedro Sanção</a>.</p>
+    <p>Código licenciado sob <a href="https://github.com/twbs/bootstrap/blob/master/LICENSE" target="_blank">MIT</a>, documentação sob <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
     <ul class="bs-docs-footer-links muted">
-      <li>Currently v3.3.1</li>
+      <li>Versão atual 3.3.1</li>
       <li>&middot;</li>
-      <li><a href="https://github.com/twbs/bootstrap">GitHub</a></li>
+      <li><a href="https://github.com/pedrosancao/bootstrap-ptBR">GitHub</a></li>
       <li>&middot;</li>
-      <li><a href="../getting-started/#examples">Examples</a></li>
+      <li><a href="../getting-started/#examples">Exemplos</a></li>
       <li>&middot;</li>
-      <li><a href="../2.3.2/">v2.3.2 docs</a></li>
+      <li><a href="../2.3.2/">Documentação v2.3.2</a></li>
       <li>&middot;</li>
-      <li><a href="../about/">About</a></li>
+      <li><a href="../about/">Sobre</a></li>
       <li>&middot;</li>
       <li><a href="http://expo.getbootstrap.com">Expo</a></li>
       <li>&middot;</li>
       <li><a href="http://blog.getbootstrap.com">Blog</a></li>
       <li>&middot;</li>
-      <li><a href="https://github.com/twbs/bootstrap/issues">Issues</a></li>
+      <li><a href="https://github.com/twbs/bootstrap/issues">Gestão de <i>bugs</i></a></li>
       <li>&middot;</li>
-      <li><a href="https://github.com/twbs/bootstrap/releases">Releases</a></li>
+      <li><a href="https://github.com/twbs/bootstrap/releases">Lançamentos</a></li>
     </ul>
   </div>
 </footer>
