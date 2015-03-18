@@ -195,39 +195,39 @@ Copy any changes made here over to the README too. -->
 </div>
 
 <div class="bs-docs-section">
-  <h1 id="grunt" class="page-header">Compiling CSS and JavaScript</h1>
+  <h1 id="grunt" class="page-header">Compilando CSS e JavaScript</h1>
 
-  <p class="lead">Bootstrap uses <a href="http://gruntjs.com">Grunt</a> for its build system, with convenient methods for working with the framework. It's how we compile our code, run tests, and more.</p>
+  <p class="lead">Bootstrap usa o <a href="http://gruntjs.com">Grunt</a> para compilação, com métodos convenientes para trabalhar com o framework. É como nós compilamos, executamos testes e mais.</p>
 
-  <h2 id="grunt-installing">Installing Grunt</h2>
-  <p>To install Grunt, you must <strong>first <a href="http://nodejs.org/download/">download and install node.js</a></strong> (which includes npm). npm stands for <a href="http://npmjs.org/">node packaged modules</a> and is a way to manage development dependencies through node.js.</p>
+  <h2 id="grunt-installing">Instalando Grunt</h2>
+  <p>Para instalar o Grunt, você deve <strong>primeiro <a href="http://nodejs.org/download/">fazer download e instalar o node.js</a></strong> (incluindo npm). npm significa <a href="http://npmjs.org/">node packaged modules</a> e é um modo de gerenciar as dependências no node.js.</p>
 
-  Then, from the command line:
+  Em seguida, a partir da linha de comando:
   <ol>
-    <li>Install <code>grunt-cli</code> globally with <code>npm install -g grunt-cli</code>.</li>
-    <li>Navigate to the root <code>/bootstrap/</code> directory, then run <code>npm install</code>. npm will look at the <a href="https://github.com/twbs/bootstrap/blob/master/package.json"><code>package.json</code></a> file and automatically install the necessary local dependencies listed there.</li>
+    <li>Instale <code>grunt-cli</code> para todo o sistema com <code>npm install -g grunt-cli</code>.</li>
+    <li>Navegue para o diretório <code>/bootstrap/</code> raíz, e execute <code>npm install</code>. O npm irá buscar pelo arquivo <a href="https://github.com/twbs/bootstrap/blob/master/package.json"><code>package.json</code></a> e instalar automaticamente as dependências locais necessárias listadas nele.</li>
   </ol>
 
-  <p>When completed, you'll be able to run the various Grunt commands provided from the command line.</p>
+  <p>Um vez instalado, você poderá executar vários comandos do Grunt pela linha de comando.</p>
 
-  <h2 id="grunt-commands">Available Grunt commands</h2>
-  <h3><code>grunt dist</code> (Just compile CSS and JavaScript)</h3>
-  <p>Regenerates the <code>/dist/</code> directory with compiled and minified CSS and JavaScript files. As a Bootstrap user, this is normally the command you want.</p>
+  <h2 id="grunt-commands">Comandos do Grunt disponíveis</h2>
+  <h3><code>grunt dist</code> (Compilar CSS e JavaScript)</h3>
+  <p>Gera novamente o diretório <code>/dist/</code> com arquivos CSS e JavaScript compilados e compactados. Com usuário do Bootstrap, esse é normalmente o comando que você procura.</p>
 
-  <h3><code>grunt watch</code> (Watch)</h3>
-  <p>Watches the Less source files and automatically recompiles them to CSS whenever you save a change.</p>
+  <h3><code>grunt watch</code> (Observar)</h3>
+  <p>Observa os arquivos fontes Less e automaticamente recompila para CSS sempre que o arquivo é modificado.</p>
 
-  <h3><code>grunt test</code> (Run tests)</h3>
-  <p>Runs <a href="http://jshint.com">JSHint</a> and runs the <a href="http://qunitjs.com">QUnit</a> tests headlessly in <a href="http://phantomjs.org">PhantomJS</a>.</p>
+  <h3><code>grunt test</code> (Executar testes)</h3>
+  <p>Executa <a href="http://jshint.com">JSHint</a> e os testes <a href="http://qunitjs.com">QUnit</a> sem cabeçalhos em <a href="http://phantomjs.org">PhantomJS</a>.</p>
 
-  <h3><code>grunt docs</code> (Build &amp; test the docs assets)</h3>
-  <p>Builds and tests CSS, JavaScript, and other assets which are used when running the documentation locally via <code>jekyll serve</code>.</p>
+  <h3><code>grunt docs</code> (Compilar e testar os recursos da documentação)</h3>
+  <p>Gera e testa CSS, JavaScript, e outros recursos que são usados quando a documentatação é executada localmente via <code>jekyll serve</code>.</p>
 
-  <h3><code>grunt</code> (Build absolutely everything and run tests)</h3>
-  <p>Compiles and minifies CSS and JavaScript, builds the documentation website, runs the HTML5 validator against the docs, regenerates the Customizer assets, and more. Requires <a href="http://jekyllrb.com/docs/installation/">Jekyll</a>. Usually only necessary if you're hacking on Bootstrap itself.</p>
+  <h3><code>grunt</code> (Compilar tudo e executar testes)</h3>
+  <p>Compila e compacta CSS e JavaScript, gera a documentação, executa o validador HTML5 na documentação, gera novamente os recursos do Customizador e mais. Requer <a href="http://jekyllrb.com/docs/installation/">Jekyll</a>. Geralmente só é necessário se você estiver modificando o próprio Bootstrap.</p>
 
-  <h2 id="grunt-troubleshooting">Troubleshooting</h2>
-  <p>Should you encounter problems with installing dependencies or running Grunt commands, first delete the <code>/node_modules/</code> directory generated by npm. Then, rerun <code>npm install</code>.</p>
+  <h2 id="grunt-troubleshooting">Solução de problemas</h2>
+  <p>Ao encontrar problemas instalando dependências ou executando comandos do Grunt, apaque o diretório <code>/node_modules/</code> gerado pelo npm. Então execute novamente <code>npm install</code>.</p>
 </div>
 
 <div class="bs-docs-section">
